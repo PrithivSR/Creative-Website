@@ -1,0 +1,380 @@
+.image1 img{
+    background-color: #e6b682;
+    height: 120px;
+}
+.header{
+    background-image: linear-gradient(white, orange);
+}
+.container{
+    display: flex;
+    margin: 30px;
+    justify-content: center;
+   
+    height: 160px;
+}
+.image2 img{
+    height: 120px;
+}
+.image2{
+    margin-right: 10px;
+}
+.head1 h4{
+    color: black;
+}
+.head1{
+    text-align: center;
+    color: brown;
+    padding: 20px;
+}
+.navi{
+    background-color: orange;
+    /* width: 1490px; */
+}
+.navi1{
+    display: flex;
+    margin: 0;
+}
+.navi1 li{
+    text-decoration: none;
+    padding: 25px;
+    /* margin: 50px; */
+    color: white;
+    list-style-type: none;
+    justify-content: space-evenly;
+    word-spacing: 10px;
+}
+.container2 nav{
+    justify-content: space-around;
+    /* word-spacing: 50px; */
+    
+    /* margin: 0; */
+}
+.container2 li:hover{
+        color: white;
+        background-color: #772a0e;
+        
+}
+.navi ul li{
+    justify-content: space-evenly;
+}
+.mark {
+    background-color: sandybrown;
+    color: black;
+    padding: 10px;
+    /* margin-top: 10px; */
+    /* padding: 0; */
+    font-size: 20px;
+}
+.newimage {
+    height: 50vh;
+    margin-top: 100px;
+    width: 900px;
+    position: relative;
+    left: 280px;
+    /* text-align: justify; */
+    border-radius: 20px;
+    box-shadow: 0px 2px 4px 7px gray ;
+}
+.text{
+    display: flex;
+    margin: 50px;
+    /* box-sizing: border-box; */
+    box-shadow: wheat;
+    gap: 50px;
+}
+.text h2{
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+}
+.text1 h2{
+    background-color: rosybrown;
+    color: black;
+    /* border-radius: 10px; */
+    padding: 10px;
+    border-top: 0;
+    position: relative;
+    margin: 0;
+    /* top: -16px; */
+}
+.text1 p{
+    margin: 0 0 16px;
+    font-size: 18px;
+    font-weight: bold;
+    color: darkblue;
+    height: 100%;
+    text-align: justify;
+    text-indent: 20px;
+    padding: 10px;
+    line-height: 30px;
+}
+
+.text2 img {
+    height: 400px;
+    width: 800px;
+    padding: 20px;
+}
+.text2 h2{
+    background-color:  rosybrown;
+    /* border-radius: 10px; */
+    padding: 10px;
+    position: relative;
+    margin: 0;
+}
+.text1{
+    border: 1px solid white;
+    box-shadow: 0px 2px 5px black;
+    /* margin: 0px; */
+    /* margin: 0; */
+}
+.text2{
+    border: 1px solid white;
+    box-shadow: 0px 2px 5px black;
+}
+.wrap h2{
+    color: #772a0e;
+    text-align: center;
+
+}
+.wrap li{
+    list-style-type: none;
+}
+.wrap1 li{
+    list-style-type: none;
+}
+.container3{
+    /* margin: 20px; */
+    background-color: sandybrown;
+    display: flex;
+    justify-content: space-evenly;
+}
+.wrap1 h2{
+    list-style-type: none;
+    color: #772a0e;
+    text-align: center;
+
+}
+.wrap2 h2{
+    color: #772a0e;
+    text-align: center;
+}
+.wrap2 li {
+list-style-type: none;
+}
+.wrap  li{
+    padding: 5px;
+}
+.wrap2 li{
+    padding: 5px;
+}
+.wrap1 li{
+    padding: 5px;
+}
+.wrap1 li:hover{
+    background-color: #772a0e;
+    color: white;
+}
+.wrap li:hover{
+    background-color: #772a0e;
+    color: white;
+}
+.wrap2  li:hover{
+    background-color: #772a0e;
+    color: white;
+}
+
+
+
+
+.dropbtn {
+    background-color:  orange;
+    color: white;
+    /* padding: 16px; */
+    padding: 25px;
+    /* font-size: 16px; */
+    border: none;
+    cursor: pointer;
+  }
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    align-items: center ;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    /* min-width: 160px; */
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .dropdown-content a {
+    color: black;
+    /* padding: 12px 16px; */
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+  }
+  .dropdown-content a:hover {background-color: #f1f1f1}
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color:  #772a0e;
+  }
+  .dropbtn{
+        justify-content:center ;
+        margin: 0px;
+        align-items: center;
+  }
+
+
+
+.zero button{
+            padding: 25px;
+            background-color: orange;
+            text-decoration: none;
+            border: 0px solid orange;
+            color: white;
+}
+.zero button:hover{
+    background-color: #772a0e;
+}
+#contactButton {
+    /* padding: 10px 20px; */
+    font-size: 16px;
+    cursor: pointer;
+    /* background-color: #007bff; */
+    color: white;
+    border: none;
+    /* border-radius: 5px; */
+}
+
+#contactDetails {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #f1f1f1;
+    /* border-radius: 8px; */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.hidden {
+    display: none;
+}
+#contactdetails p{
+    color: black;
+}
+.mapouter{
+    height: 400px;
+    width: 400px;
+}
+
+
+.abc{
+    background-color:  orange;
+    color: white;
+    /* padding: 16px; */
+    padding: 25px;
+    /* font-size: 16px; */
+    border: none;
+    cursor: pointer;
+  }
+  .ab {
+    position: relative;
+    display: inline-block;
+    align-items: center ;
+  }
+  .abcd {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    /* min-width: 160px; */
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .abcd a {
+    color: black;
+    /* padding: 12px 16px; */
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+  }
+  .abcd a:hover {
+    background-color: #f1f1f1;
+}
+
+  .ab:hover .abcd {
+    display: block;
+  }
+  
+  .ab:hover .abc {
+    background-color:  #772a0e;
+  }
+  .abc{
+        justify-content:center ;
+        margin: 0px;
+        align-items: center;
+  }
+  
+
+  
+
+  .xy{
+    background-color:  orange;
+    color: white;
+    /* padding: 16px; */
+    padding: 25px;
+    /* font-size: 16px; */
+    border: none;
+    cursor: pointer;
+  }
+  .x {
+    position: relative;
+    display: inline-block;
+    align-items: center ;
+  }
+  .xyz {
+    display: none;
+    position: absolute;
+    background-color: white;
+    /* background-color: #f9f9f9; */
+    /* min-width: 160px; */
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .xyz a {
+    color: black;
+    /* padding: 12px 16px; */
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+  }
+  .xyz a:hover {
+    /* margin: 20px; */
+
+    background-color: white;
+  }
+  .x:hover .xyz {
+    display: block;
+  }
+  
+  .x:hover .y {
+    background-color:  #772a0e;
+  }
+  .y{
+        justify-content:center ;
+        margin: 0px;
+        align-items: center;
+  }
+.x button:hover{
+    background-color: #772a0e;
+}
+
+
+
+
+  
+
+
+
